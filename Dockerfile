@@ -19,7 +19,7 @@ COPY ./packages/dashboard /dashboard
 RUN npm run build
 
 
-FROM alpine:3.16.0 as app
+FROM alpine:3.19.6 as app
 
 WORKDIR /
 
